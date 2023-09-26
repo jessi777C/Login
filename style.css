@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap");
+
+:root {
+  --color-light-50: #f8fafc;
+  --color-dark-900: #000;
+}
+* {
+  font-family: "Jost", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(113, 148, 176);
+}
+.login_form {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  background: url("https://i.pinimg.com/564x/50/d6/c3/50d6c3897a7601038d15518e02eb09b4.jpg");
+  padding: 70px 70px;
+  border-radius: 8px;
+  gap: 15px;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 7px;
+}
+.input-box label {
+  font-size: 15px;
+  color: #f8fafc;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: text;
+}
+.input-field input {
+  border: none;
+  width: 300px;
+  height: 40px;
+  border-radius: 3px;
+  background: #f5f3f3;
+  box-shadow: 0.5px 0.5px 15px rgb(0, 0, 0, 0.5);
+}
+.input-field input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+  padding: 2px;
+}
+.input-field input:focus {
+  outline: none;
+}
+#login_button {
+  border: none;
+  background: #e71e53;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.social_media {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.social_media img:hover {
+  transform: scale(1.2);
+}
+
+.singup {
+  margin-top: 4rem;
+}
+.singup a {
+  text-decoration: none;
+  color: #e71e53;
+  width: 600;
+}
